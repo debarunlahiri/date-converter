@@ -251,3 +251,9 @@ For ES5, the equivalent names are `DateConverter.parse(...)` and `DateConverter.
 Invalid dates, mismatched formats, unsupported timezone names, and nonexistent local times during a daylight-saving clock jump throw `RangeError`. Wrap conversion in `try...catch` when processing user-provided values.
 
 The ES5 file uses ES5 language syntax, but IANA timezone conversion requires a runtime with `Intl.DateTimeFormat`, `formatToParts`, and timezone data.
+
+## License
+
+This project is available under the [MIT License](LICENSE).
+
+Copyright © 2026 Debarun Lahiri.
